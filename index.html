@@ -3,13 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Webpage</title>
+    <title>PartyUp.XIV</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
+        <div id="left-col">
+            <div id="logo">
+                <img src="./assets/images/crystal.svg"></img>
+                <h1>PartyUp.XIV</h1>
+            </div>
+        </div>
 
+        <div id="right-col">
+            <div id="textarea">
+                <p>Sick and tired of scouring the reflections for groups that just don't fit? PartyUp.XIV is the premier link-aggregator for FFXIV group-finding!</p>
+                <p>May you ever walk in the light of the Crystal!</p>
+            </div>
+
+            <div id="formarea">
+                <div class="formContainer" id="name">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName">
+                </div>
+                <div class="formContainer" id="contactInfo">
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+                    <label for="telephone">Phone Number</label>
+                    <input type="tel" id="telephone">
+                </div>
+
+                <div class="formContainer" id="password">
+                    <label for="pw_init">Password</label>
+                    <input type="password" id="pw_init">
+                    <label for="pw_conf">Password Confirm</label>
+                    <input type="password" id="pw_conf">
+                </div>
+            </div>
+
+            <div id="signup-area">
+                <button id="signup-btn">Sign Up</button>
+                <div>Already have an account? <a href="">Log in</a></div>
+                </div>
+        </div>
+
+        <div class="footer">
+            Hello
+        </div>
     </div>
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
 </body>
 </html>
