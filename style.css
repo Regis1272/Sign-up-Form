@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Ferrum';
+  src: url('./assets/ferrum-font/Ferrum-wy99.otf') format('opentype');
+}
+
+body {
+  font-family: 'Ferrum', sans-serif;
+}
+
